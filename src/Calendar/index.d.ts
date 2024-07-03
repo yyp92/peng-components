@@ -1,4 +1,4 @@
-import { CSSProperties, ReactNode } from 'react';
+import React, { CSSProperties, ReactNode } from 'react';
 import { Dayjs } from 'dayjs';
 export interface CalendarProps {
     value: Dayjs;
@@ -9,5 +9,5 @@ export interface CalendarProps {
     locale?: string;
     onChange?: (date: Dayjs) => void;
 }
-declare const Calendar: (props: CalendarProps) => import("react/jsx-runtime").JSX.Element;
+declare const Calendar: (props: CalendarProps) => React.JSX.Element;
 export default Calendar;

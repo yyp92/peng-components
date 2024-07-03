@@ -3,7 +3,7 @@
  * 
  * 整体思路: 用 canvas 把文字或者图片画出来，导出 base64 的 data url 设置为 div 的重复背景，这个 div 整个覆盖在需要加水印的元素上，设置 pointer-events 是 none
  */
-import {
+import React, {
     useRef,
     PropsWithChildren,
     CSSProperties,

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Dayjs } from 'dayjs';
 interface HeaderProps {
     curMonth: Dayjs;
@@ -5,5 +6,5 @@ interface HeaderProps {
     nextMonthHandler: () => void;
     todayHandler: () => void;
 }
-declare function Header(props: HeaderProps): import("react/jsx-runtime").JSX.Element;
+declare function Header(props: HeaderProps): React.JSX.Element;
 export default Header;

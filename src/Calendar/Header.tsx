@@ -1,4 +1,4 @@
-import {useContext} from 'react'
+import React, {useContext} from 'react'
 import {Dayjs} from 'dayjs'
 // import './index.scss'
 import LocaleContext from './LocaleContext'

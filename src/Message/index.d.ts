@@ -1,7 +1,7 @@
 /**
  * Message
  */
-import { CSSProperties, ReactNode } from "react";
+import React, { CSSProperties, ReactNode } from "react";
 export type Position = 'top' | 'bottom';
 export interface MessageProps {
     style?: CSSProperties;
@@ -18,4 +18,4 @@ export interface MessageRef {
     update: (id: number, messageProps: MessageProps) => void;
     clearAll: () => void;
 }
-export declare const MessageProvider: import("react").ForwardRefExoticComponent<import("react").RefAttributes<MessageRef>>;
+export declare const MessageProvider: React.ForwardRefExoticComponent<React.RefAttributes<MessageRef>>;

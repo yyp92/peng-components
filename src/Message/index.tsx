@@ -2,7 +2,7 @@
  * Message
  */
 
-import { CSSProperties, FC, forwardRef, ReactNode, useEffect, useImperativeHandle, useMemo } from "react"
+import React, { CSSProperties, FC, forwardRef, ReactNode, useEffect, useImperativeHandle, useMemo } from "react"
 import { createPortal } from "react-dom";
 import {TransitionGroup, CSSTransition } from 'react-transition-group'
 import useStore, { MessageList } from "./useStore"
